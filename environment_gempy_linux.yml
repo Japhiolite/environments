@@ -1,0 +1,31 @@
+name: gempy_env
+
+channels:
+  - conda-forge
+  - defaults
+dependencies: 
+  - python=3.7
+  - pandas
+  - geopandas
+  - rasterio
+  - matplotlib
+  - Theano>=1.0.4 # In windows use conda! This will install all the required compilers
+  - numpy
+  - scipy
+  - mkl-service
+  - pytest
+  - seaborn>=0.9
+  - networkx
+  - scikit-image>=0.17.2
+  - pyvista=0.24
+  - iPython
+  - pymc3
+  - pyevtk
+  - requests
+  - pip
+  - pip:
+    - qgrid==1.3.0
+    - mplstereonet
+    - pyqrcode
+    - pyqt5
+    - gempy

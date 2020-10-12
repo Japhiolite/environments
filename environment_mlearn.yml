@@ -1,0 +1,24 @@
+name: mlearn_env
+
+channels:
+  - conda-forge
+  - defaults
+dependencies: 
+  - python=3.7
+  - pandas
+  - geopandas
+  - rasterio
+  - matplotlib
+  - numpy
+  - scipy
+  - mkl-service
+  - pytest
+  - seaborn>=0.9
+  - networkx
+  - scikit-learn
+  - scikit-image>=0.17.2
+  - pyvista=0.24
+  - iPython
+  - pyevtk
+  - requests
+  - pip

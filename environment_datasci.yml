@@ -1,0 +1,21 @@
+name: env_datasci
+
+channels:
+  - conda-forge
+  - defaults
+dependencies: 
+  - python=3.7
+  - pandas=1.0
+  - matplotlib
+  - altair
+  - bokeh
+  - numpy
+  - scipy
+  - seaborn>=0.9
+  - scikit-image>=0.17.2
+  - scikit-learn
+  - iPython
+  - jupyter
+  - notebook
+  - vega_datasets
+  - pip
