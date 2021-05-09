@@ -1,21 +1,24 @@
-name: env_gempy
+name: env_gempyP38
 
 channels:
   - conda-forge
   - defaults
 dependencies: 
-  - python=3.7
-  - pandas=1.0
-  - geopandas
-  - rasterio
-  - matplotlib
-  - Theano>=1.0.4 # In windows use conda! This will install all the required compilers
+  - python=3.8
+  - pandas
   - numpy
   - scipy
   - mkl-service
   - libpython
   - m2w64-toolchain
   - pytest
+  - sphinx
+  - git
+  - Theano
+  - pygpu
+  - geopandas
+  - rasterio
+  - matplotlib
   - seaborn>=0.9
   - networkx
   - scikit-image>=0.17.2
