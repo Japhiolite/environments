@@ -26,7 +26,8 @@ dependencies:
   - iPython
   - jupyter
   - notebook
-  - pymc3
+  - pymc3=3.8
+  - arviz=0.10.0
   - pyevtk
   - requests
   - pip
