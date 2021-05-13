@@ -1,0 +1,23 @@
+name: env_geothack
+
+channels:
+  - conda-forge
+  - defaults
+dependencies: 
+  - python=3.8
+  - pandas>=1.0
+  - matplotlib
+  - altair
+  - bokeh
+  - numpy
+  - scipy
+  - seaborn>=0.9
+  - bqplot
+  - scikit-image>=0.17.2
+  - scikit-learn
+  - uncertainties
+  - iPython
+  - jupyter
+  - notebook
+  - vega_datasets
+  - pip
