@@ -14,6 +14,7 @@ dependencies:
   - seaborn>=0.9
   - scikit-image>=0.17.2
   - scikit-learn
+  - imbalanced-learn
   - iPython
   - jupyter
   - notebook
