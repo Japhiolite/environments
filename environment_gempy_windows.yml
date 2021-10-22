@@ -1,4 +1,4 @@
-name: env_gempyP38
+name: env_gempyP38_test
 
 channels:
   - conda-forge
