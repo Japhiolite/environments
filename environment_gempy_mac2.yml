@@ -1,4 +1,4 @@
-name: env_gempyMac
+name: env_gempy_Mac
 channels:
   - conda-forge
   - defaults
