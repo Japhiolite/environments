@@ -1,0 +1,32 @@
+name: env_gempyMac
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - ipython
+  - jupyter
+  - matplotlib
+  - python
+  - pandas
+  - numpy
+  - scipy
+  - mkl-service
+  - libpython
+  - m2w64-toolchain
+  - pytest
+  - sphinx
+  - Theano
+  - pygpu
+  - geopandas
+  - rasterio
+  - matplotlib
+  - seaborn>=0.9
+  - scikit-image>=0.17.2
+  - pyvista
+  - pip
+  - pip:
+      - subsurface
+      - pyqt5
+      - gempy
+
