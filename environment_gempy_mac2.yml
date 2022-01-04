@@ -3,13 +3,13 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - python=3.9
+  - python=3.6
   - ipython
   - jupyter
   - matplotlib
   - pandas
-  - numpy
-  - scipy
+  - numpy<=1.12
+  - scipy<0.17.1
   - mkl-service
   - pytest
   - sphinx
@@ -25,4 +25,3 @@ dependencies:
       - subsurface
       - pyqt5
       - gempy
-
