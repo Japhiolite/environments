@@ -1,11 +1,11 @@
-name: env_gempyP38_test
+name: env_gempyP38_test2
 
 channels:
   - conda-forge
   - defaults
 dependencies: 
   - python=3.8
-  - pandas
+  - pandas=1.3.4
   - numpy
   - scipy
   - mkl-service
