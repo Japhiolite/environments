@@ -1,4 +1,4 @@
-name: gempygis_env_py38
+name: geoscience_env_py38
 
 channels:
   - conda-forge
@@ -9,7 +9,6 @@ dependencies:
   - scooby
   - pandas=1.3.4
   - geopandas
-  - subsurface
   - cartopy
   - pygeos
   - rasterio
@@ -48,4 +47,6 @@ dependencies:
     - pyqt5
     - gempy
     - welly
+    - wellpathpy
     - striplog
+    - subsurface
