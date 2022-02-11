@@ -9,6 +9,8 @@ dependencies:
   - geopandas
   - rasterio
   - cartopy
+  - geoplot
+  - shapely
   - matplotlib
   - Theano>=1.0.4 # In windows use conda! This will install all the required compilers
   - numpy

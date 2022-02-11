@@ -19,6 +19,8 @@ dependencies:
   - geopandas
   - rasterio
   - cartopy
+  - geoplot
+  - shapely
   - seaborn>=0.9
   - scikit-image>=0.17.2
   - pyvista
