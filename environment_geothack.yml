@@ -13,6 +13,7 @@ dependencies:
   - scipy
   - seaborn>=0.9
   - bqplot
+  - plotly
   - scikit-image>=0.17.2
   - scikit-learn
   - uncertainties
@@ -20,4 +21,5 @@ dependencies:
   - jupyter
   - notebook
   - vega_datasets
+  - streamlit
   - pip
