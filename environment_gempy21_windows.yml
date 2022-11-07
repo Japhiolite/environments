@@ -1,0 +1,39 @@
+name: env_gempy21
+
+channels:
+  - conda-forge
+  - defaults
+dependencies: 
+  - python=3.8
+  - pandas=1.3.4
+  - numpy
+  - scipy
+  - mkl-service
+  - libpython
+  - m2w64-toolchain
+  - pytest
+  - sphinx
+  - git
+  - Theano
+  - pygpu
+  - geopandas
+  - rasterio
+  - matplotlib
+  - seaborn>=0.9
+  - networkx
+  - scikit-image>=0.17.2
+  - pyvista=0.24
+  - iPython
+  - jupyter
+  - notebook
+  - pymc3=3.8
+  - arviz=0.10.0
+  - pyevtk
+  - requests
+  - pip
+  - pip:
+    - qgrid==1.3.0
+    - mplstereonet
+    - pyqrcode
+    - pyqt5
+    - gempy==2.1.0
