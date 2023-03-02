@@ -1,0 +1,46 @@
+name: gempy_env_py310
+
+channels:
+  - conda-forge
+  - defaults
+dependencies: 
+  - python=3.10
+  - numpy=1.21.6
+  - scooby
+  - pandas=1.3.4
+  - geopandas
+  - rasterio
+  - matplotlib
+  - shapely
+  - scikit-image>=0.17.2
+  - scikit-learn
+  - xmltodict
+  - scipy
+  - pyvista=0.37
+  - pyvistaqt
+  - owslib
+  - pooch
+  - iPython
+  - mkl-service
+  - libpython
+  - m2w64-toolchain
+  - Theano>=1.0.4 # In windows use conda! This will install all the required compilers
+  - pytest
+  - seaborn>=0.9
+  - ipywidgets
+  - networkx
+  - pymc3
+  - pyevtk
+  - requests
+  - gemgis
+  - pip
+  - pip:
+    - qgrid
+    - mplstereonet
+    - pyqrcode
+    - pyqt5
+    - gempy
+    - welly
+    - wellpathpy
+    - striplog
+    - subsurface

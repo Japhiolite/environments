@@ -1,0 +1,35 @@
+name: subsurface_env_py310
+
+channels:
+  - conda-forge
+  - defaults
+dependencies: 
+  - python=3.10
+  - numpy
+  - pandas
+  - gdal
+  - geopandas
+  - pygeos
+  - rasterio
+  - matplotlib
+  - pytest
+  - iPython
+  - ipywidgets
+  - pip
+  - pip:
+    - pyqt5
+    - welly
+    - wellpathpy
+    - striplog
+    - shapely
+    - imageio
+    - scipy
+    - requests
+    - ezdxf
+    - trimesh
+    - networkx
+    - pooch
+    - netcdf4
+    - scooby
+    - subsurface
+    - pyvista

@@ -4,19 +4,20 @@ channels:
   - conda-forge
   - defaults
 dependencies: 
-  - python=3.8
-  - pandas>=1.0
+  - python=3.10
+  - pandas
   - matplotlib
   - altair
   - bokeh
   - numpy
   - scipy
-  - seaborn>=0.9
-  - scikit-image>=0.17.2
+  - seaborn
+  - scikit-image
   - scikit-learn
   - imbalanced-learn
   - iPython
   - jupyter
   - notebook
   - vega_datasets
+  - pydot
   - pip
