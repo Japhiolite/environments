@@ -1,0 +1,38 @@
+name: aesara_gempy_test_3.10
+
+channels:
+  - conda-forge
+  - defaults
+dependencies: 
+  - python=3.10
+  - aesara
+  - pymc>=4
+  - numpy
+  - scooby
+  - pandas
+  - geopandas
+  - rasterio
+  - matplotlib
+  - shapely
+  - scikit-image
+  - scikit-learn
+  - xmltodict
+  - scipy
+  - pyvista
+  - pyvistaqt
+  - pytest
+  - owslib
+  - iPython
+  - pytest
+  - seaborn
+  - ipywidgets
+  - pip
+  - pip:
+    - qgrid==1.3.0
+    - mplstereonet
+    - pyqt5
+    - welly
+    - wellpathpy
+    - striplog
+    - subsurface
+    - pvgeo

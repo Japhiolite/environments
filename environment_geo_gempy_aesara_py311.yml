@@ -1,0 +1,38 @@
+name: aesara_py3.11
+
+channels:
+  - conda-forge
+  - defaults
+dependencies: 
+  - python=3.11
+  - numpy
+  - scooby
+  - pandas=1.3.4
+  - geopandas
+  - rasterio
+  - matplotlib
+  - shapely
+  - scikit-image
+  - scikit-learn
+  - xmltodict
+  - scipy
+  - pyvista
+  - pyvistaqt
+  - pytest
+  - owslib
+  - iPython
+  - pytest
+  - seaborn
+  - ipywidgets
+  - aesara
+  - pymc>=4
+  - pip
+  - pip:
+    - qgrid==1.3.0
+    - mplstereonet
+    - pyqt5
+    - welly
+    - wellpathpy
+    - striplog
+    - subsurface
+    - pvgeo

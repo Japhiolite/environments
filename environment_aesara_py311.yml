@@ -1,0 +1,10 @@
+name: geo_aesara_py3.11
+
+channels:
+  - conda-forge
+  - defaults
+dependencies: 
+  - python=3.11
+  - aesara
+  - pymc>=4
+  - pip
